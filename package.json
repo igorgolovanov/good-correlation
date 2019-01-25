@@ -1,10 +1,10 @@
 {
   "name": "good-correlation",
   "version": "0.0.1",
-  "description": "Simple transform streams useful in creating good data pipelines",
+  "description": "Correlation transform streams useful in creating good data pipelines",
   "main": "lib/index.js",
   "scripts": {
-    "test": "lab -m 5000 -t 100 -v -La code"
+    "test": "lab -m 5000 -t 90 -v -La code"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,12 @@
   "keywords": [
     "good",
     "correlation",
-    "hapi"
+    "hapi",
+    "request-id",
+    "correlation-id",
+    "x-request-id",
+    "x-correlation-id",
+    "trace-id"
   ],
   "author": {
     "name": "Igor Golovanov",
