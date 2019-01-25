@@ -1,6 +1,6 @@
 {
   "name": "good-correlation",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Correlation transform streams useful in creating good data pipelines",
   "main": "lib/index.js",
   "scripts": {
